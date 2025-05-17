@@ -11666,7 +11666,7 @@ li.profile.ps-4.showopacity i {
     color: #000;
 
     font-family: AR One Sans;
-    font-size: 16px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 600;
     line-height: 24px;
@@ -12302,6 +12302,8 @@ height: 282.306px;
 .profile-area-inner-2>img{
     width: 118.45px;
     height: 118.45px;
+    border-radius: 50px;
+    object-fit: cover;
 }
               
 .total-earning-box{
@@ -12309,6 +12311,10 @@ height: 282.306px;
     background: #d8e8ee;
     padding: 19.46px 41px 19.98px 41px;
     margin-top: 31px;
+}
+.p_ne_v{
+    font-size: 16px;
+    color: black;
 }
 .total-earning-box h3{
     color: #000;
@@ -12762,6 +12768,19 @@ span.line-1::before {
     height: 19px;
     width: 1px;
     background-color: #000;
+}
+
+.activate_erver_area{
+    background-color: #f8fbff;
+    margin-top: 80px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.activate_erver_area h2{
+    color: black;
+    font-size: 19px;
+    font-weight: 650;
+    margin-bottom: 20px;
 }
 @media screen and (max-width: 1450px) {}
 
