@@ -3617,4 +3617,146 @@ ul {
 
 .roadmap_area{
       background: #879dd530;
+      position: relative;
 }
+.roadmap_area::before{
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 470px;
+    background: url(../img/roadmap_bg.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.1;
+
+}
+
+.token_area_inner{
+          display: flex
+;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border: 2px solid #78b0ef;
+    border-radius: 16px;
+            padding: 40px 200px 40px 40px;
+}
+
+.slide_rdmap_bx{
+  position: relative;
+}
+.slide_rdmap_bx::before{
+  
+   position: absolute;
+   content: '';
+    background-image: url('../img/line_1.png');
+    background-repeat: no-repeat;
+    content: "";
+    height: 50px;
+    left: -125px;
+    position: absolute;
+    top: 118px;
+    width: 100px;
+}
+
+
+.roadmap_area .swiper-button-prev{
+      background: #78b0ef;
+    border-radius: 4px !important;
+    height: 48px !important;
+        left: calc(50% - 235px) !important;
+    top: 118px !important;
+    width: 48px !important;
+    z-index: 333 !important;
+    display: flex;
+    align-content:center;
+    justify-content: center;
+}
+
+.roadmap_area .swiper-button-prev::after{
+content: 'prev';
+    color: white;
+    width: 20px;
+    font-size: 20px;
+        display: flex
+;
+    justify-content: center;
+}
+
+
+.roadmap_area .swiper-button-next{
+      background: #78b0ef;
+    border-radius: 4px !important;
+    height: 48px !important;
+       right: calc(50% - 235px);
+    top: 118px !important;
+    width: 48px !important;
+    z-index: 333 !important;
+    display: flex;
+    align-content:center;
+    justify-content: center;
+}
+
+.roadmap_area .swiper-button-next::after{
+ 
+    color: white;
+    width: 20px;
+    font-size: 20px;
+        display: flex
+;
+    justify-content: center;
+}
+
+.swiper-slide{
+      filter: blur(5px);
+}
+
+.swiper-slide-active{
+      filter: blur(0px);
+
+}
+@media screen and (max-width: 1450px) {
+
+ 
+
+
+.roadmap_text {
+    left: calc(50% - 494px);
+    position: absolute;
+    top: 110px;
+    width: 988px;
+    width: 100%;
+    left: 0;
+}
+
+}
+
+
+@media screen and (max-width: 550px) {
+.slide_rdmap .shap_bt
+{
+  width: 100%;
+  display: none;
+}
+.slide_rdmap .shap_tp{
+  display: none;
+
+}
+.roadmap_area_inner h2{
+  font-size: 27px;
+}
+.roadmap_area .swiper-button-prev { 
+    left: 10px !important;
+    top: 185px !important; 
+}
+.roadmap_area .swiper-button-next { 
+    right: 10px !important;
+    top: 185px !important; 
+}
+}
+
+
+
