@@ -4420,6 +4420,19 @@ background-color: #ffffff21;
 .token__sales-info .list-wrap li.payment-method span {
     color: #ffffff;
 }
+.header__logo a img{
+  width: 204px;
+}
+.footer__logo a img{
+  width: 204px;
+
+}
+.sign__logo{
+  width: 204px;
+
+}
+
+
 @media screen and (max-width: 992px) {
   .contact_area .pages_view_inner>h3 {
     font-size: 44px;

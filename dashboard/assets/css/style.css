@@ -11436,15 +11436,17 @@ table.dataTable.display tbody tr:first-child td {
 
 .logo-image-sidebar {
     width: 248px;
-    display: flex;
+    display: flex
+;
     min-height: 60px;
     margin-left: 26px;
     position: relative;
     margin-bottom: 20px;
     float: left;
-    background-image: url(../images/logo.svg);
+    background-image: url(../images/logo_CF.png);
     background-repeat: no-repeat;
     background-position: center left;
+    background-size: contain;
 }
 
 .logo-image-sidebar::before {
