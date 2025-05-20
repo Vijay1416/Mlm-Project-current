@@ -11435,7 +11435,7 @@ table.dataTable.display tbody tr:first-child td {
  
 
 .logo-image-sidebar {
-    width: 248px;
+    width: 208px;
     display: flex
 ;
     min-height: 60px;
@@ -11443,7 +11443,7 @@ table.dataTable.display tbody tr:first-child td {
     position: relative;
     margin-bottom: 20px;
     float: left;
-    background-image: url(../images/logo_CF.png);
+    background-image: url(../images/logo_cfn.svg);
     background-repeat: no-repeat;
     background-position: center left;
     background-size: contain;
@@ -11459,7 +11459,9 @@ table.dataTable.display tbody tr:first-child td {
     width: 203.286px;
     left: 0;
 }
-
+.main-menu-wrapper li a .title{
+    margin-right: 10px;
+}
 .collapseit .wraplist {
     padding: 0 !important;
     background: transparent !important;
@@ -11471,7 +11473,7 @@ table.dataTable.display tbody tr:first-child td {
 }
 
 .collapseit .logo-image-sidebar {
-    background-image: url(../images/logo-short.svg);
+    background-image: url(../images/favicon_cfn.png);
     width: 62px;
     /* min-height: 30px; */
     margin-left: 0px;
